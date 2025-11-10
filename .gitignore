@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+
+# Build artifacts
+dist/
+build/
+coverage/
+
+# Editor/OS specific files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# IDE specific files
+.idea/
+
+# Test files
+*.test.js
+*.spec.js
+
+# Other common files
+tmp/
+*.tmp
+*.swp
