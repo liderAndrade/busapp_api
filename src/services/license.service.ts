@@ -79,6 +79,7 @@ class LicenseService {
             throw new Error('Parámetros inválidos');
         }
 
+        console.log('dentro de generate licence');
         return await withTransaction(async (connection) => {
             let codigo: string | null = null;
             let intentos = 0;
